@@ -20,7 +20,6 @@ html {
     color: #111;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 147%;
   }
 
   header ul {
@@ -30,24 +29,51 @@ html {
   header ul a {
       color: white;
       text-decoration: none;
+      font-weight: 700;
   }
   
   h1 {
       color: white;
-      font-family: 'Roboto-Black';
       font-size: 26px;
+      font-weight: 900;
   }
   
-  h2 {}
-  
+  h2 {
+      color: white;
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 700;
+  }
+
   h3 {}
   
   p {
-    margin: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 700;
+}
+  input {
+      width: 335px;
+      height: 60px;
+      border-radius: 20px;
+      border: 1px solid gray;
+      color: #CDCDCD;
+      font-size: 17px;
+      font-family: 'Roboto';
+      font-weight: 700;
   }
   
-  
-  
+  button {
+      width: 168px;
+      height: 60px;
+      border-radius: 20px;
+      color: black;
+      font-family: 'Roboto';
+      font-size: 20px;
+      font-weight: 700;
+      background: #9BDBE7;
+  }
   /* ---- layout ---- */
 
   body {
