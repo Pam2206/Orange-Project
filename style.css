@@ -137,6 +137,8 @@ html {
     box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
     margin: 25px 20px;
     margin-top: -60px;
+    height: 1700px;
+    text-align: left;
   }
 
   #articulos div p {
@@ -144,8 +146,16 @@ html {
       font-size: 16px;	
       font-weight: 500;	
       line-height: 32px;
+      margin: 20px;
   }
 
+  #articulos div h3 {
+      margin: 20px;
+      border-bottom: 5px solid #F8765E;
+      display: inline-block;
+      color: #031D5B;
+
+  }
   #articulos div img {
       margin: 60px;
   }
