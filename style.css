@@ -24,6 +24,8 @@ html {
 
   header ul {
     list-style: none;
+    justify-content: space-around;
+    display: flex
   }
 
   header ul a {
@@ -54,15 +56,17 @@ html {
     font-weight: 700;
 }
   input[type=email] {
-      width: 100%;
+      width: 335px;
       height: 60px;
       border-radius: 20px;
-      border: 1px solid gray;
+      border: 1px solid;
       color: white;
       font-size: 17px;
       font-family: 'Roboto';
       font-weight: 700;
       padding: 25px 20px;
+      background-color: #FFFFFF;
+      box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.15);
   }
   
   button {
@@ -194,6 +198,47 @@ html {
   #better button {
       margin: 20px 83px 100px;
   }
+
+  #final h2 {
+    color: #F8765E;	
+    font-family: Roboto;	
+    font-size: 30px;	
+    font-weight: bold;	
+    line-height: 40px;	
+    text-align: center;
+  }
+
+  #final h3 {
+    color: #CDCDCD;	
+    font-family: Roboto;	
+    font-size: 26px;	
+    font-weight: 500;	
+    line-height: 45px;}
+  }
+
+  footer p {
+      color: white;
+
+  }
+
+  footer ul {
+    list-style: none;
+    justify-content: space-around;
+    display: flex
+  }
+
+  footer ul a {
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #F8765E;
+    padding: 25px 51px 60px;
+  }
+  
 
   
   
