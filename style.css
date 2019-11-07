@@ -218,7 +218,6 @@ html {
 
   footer p {
       color: white;
-
   }
 
   footer ul {
@@ -239,10 +238,6 @@ html {
     padding: 25px 51px 60px;
   }
   
-
-  
-  
-  
   /* ---- components ---- */
   
   .button {
@@ -256,6 +251,21 @@ html {
     color: blue;
     background-color: #fff;
   }
+
+  #comillas img {
+    height: 165px;	
+    width: 151px;
+  }
+
+  h4 {
+    color: #F8765E;	
+    font-family: Roboto;	
+    font-size: 16px;	
+    font-weight: bold;	
+    line-height: 20px;
+    text-align: left;
+  }
+
   
   /* ---- section ---- */
   
