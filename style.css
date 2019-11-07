@@ -257,16 +257,6 @@ html {
     width: 151px;
   }
 
-  h4 {
-    color: #F8765E;	
-    font-family: Roboto;	
-    font-size: 16px;	
-    font-weight: bold;	
-    line-height: 20px;
-    text-align: left;
-  }
-
-  
   /* ---- section ---- */
   
   section.testimonials {
